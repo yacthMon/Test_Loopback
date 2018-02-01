@@ -21,10 +21,10 @@
       "type": "hasMany",
       "model": "rate",
       "foreignKey": "company_id",
+      "through": "company_rate",
       "options": {
         "nestRemoting": true
-      },
-      "through": "company_rate"
+      }
     }
   },
   "acls": [],
