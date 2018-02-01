@@ -12,15 +12,22 @@
     },
     "rate_price": {
       "type": "number",
-      "required":true
+      "required": true
     },
     "rate_type_id": {
       "type": "number",
-      "required":true
+      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "companies": {
+      "type": "hasMany",
+      "model": "company",
+      "foreignKey": "rate_id",
+      "through": "company_rate"
+    }
+  },
   "acls": [],
   "methods": {}
 }

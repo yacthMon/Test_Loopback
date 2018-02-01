@@ -16,7 +16,17 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "rates": {
+      "type": "hasMany",
+      "model": "rate",
+      "foreignKey": "company_id",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "company_rate"
+    }
+  },
   "acls": [],
   "methods": {}
 }

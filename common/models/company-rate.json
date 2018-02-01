@@ -20,7 +20,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "company": {
+      "type": "belongsTo",
+      "model": "company",
+      "foreignKey": "company_id"
+    },
+    "rate": {
+      "type": "belongsTo",
+      "model": "rate",
+      "foreignKey": "rate_id"
+    }
+  },
   "acls": [],
   "methods": {}
 }
