@@ -1,0 +1,26 @@
+{
+  "name": "company_rate",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "company_rate_id": {
+      "type": "number",
+      "id": true
+    },
+    "company_id": {
+      "type": "number",
+      "required": true
+    },
+    "rate_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

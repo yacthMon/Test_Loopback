@@ -1,0 +1,26 @@
+{
+  "name": "rate",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "rate_id": {
+      "type": "number",
+      "id": true
+    },
+    "rate_price": {
+      "type": "number",
+      "required":true
+    },
+    "rate_type_id": {
+      "type": "number",
+      "required":true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
