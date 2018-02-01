@@ -14,25 +14,25 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "xampp"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "xampp",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "xampp",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "xampp",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "xampp",
     "public": false
   },
   "company": {
