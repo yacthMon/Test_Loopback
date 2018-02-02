@@ -49,6 +49,6 @@
   },
   "rate_type": {
     "dataSource": "xampp",
-    "public": true
+    "public": false
   }
 }
